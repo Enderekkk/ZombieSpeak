@@ -79,4 +79,4 @@ async def on_message(message):
        await client.delete_message(message)
     if ('KURWO') in message.content:
        await client.delete_message(message)     
-client.run('NTI5NjkwOTE0NDcwNDk0MjM4.Dw0gyA.7pyD13NIE6lIk4zJ5y0tH49IvKs')
+client.run(str(os.environ.get('NTI5NjkwOTE0NDcwNDk0MjM4.Dw0gyA.7pyD13NIE6lIk4zJ5y0tH49IvKs')
